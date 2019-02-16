@@ -2,7 +2,6 @@ package Figura;
 public class Circulo extends Figura {
 
     private double radio;
-
     public Circulo (double r){
         this.radio = r;
 
@@ -13,4 +12,5 @@ public class Circulo extends Figura {
         return area;
     }
 }
+
 
