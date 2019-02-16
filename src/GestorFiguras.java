@@ -1,10 +1,11 @@
+
 import Figura.*;
 public class GestorFiguras {
 
     public static double suma(Figura[] figuras) {
 
         double res = 0;
-        for (figuras f : figuras) {
+        for (Figura f : figuras) {
             res = res + f.area();
         }
         return res;
