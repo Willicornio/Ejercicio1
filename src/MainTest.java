@@ -1,18 +1,10 @@
 import Figura.*;
+
 import java.util.Arrays;
 
-public class GestorFiguras {
+public class MainTest {
 
-    public static double suma(Figura[] figuras) {
-
-        double res = 0;
-        for (Figura f : figuras) {
-            res = res + f.area();
-        }
-        return res;
-    }
-
-    public static void main(String[] args) {
+     public static void main(String[] args) {
 
         Figura[] f = new Figura[4];
         f[0] = new Circulo(5.0);
@@ -26,6 +18,6 @@ public class GestorFiguras {
         for (Figura i : f) {
             System.out.println(i + " < ");
         }
+
     }
 }
-
